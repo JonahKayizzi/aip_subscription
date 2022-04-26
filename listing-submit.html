@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <link href="http://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet" type="text/css">
+    <link href="assets/libraries/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/libraries/owl.carousel/assets/owl.carousel.css" rel="stylesheet" type="text/css" >
+    <link href="assets/libraries/colorbox/example1/colorbox.css" rel="stylesheet" type="text/css" >
+    <link href="assets/libraries/bootstrap-select/bootstrap-select.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/libraries/bootstrap-fileinput/fileinput.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/superlist.css" rel="stylesheet" type="text/css" >
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.png">
+
+    <title>Superlist - Listing Submit</title>
+</head>
+
+
+<body class="">
+
+<div class="page-wrapper">
+    
+    <header class="header">
+    <div class="header-wrapper">
+        <div class="container">
+            <div class="header-inner">
+                <div class="header-logo">
+                    <a href="index.html">
+                        <img src="assets/img/logo.png" alt="Logo">
+                        <span>Superlist</span>
+                    </a>
+                </div><!-- /.header-logo -->
+
+                <div class="header-content">
+                    <div class="header-top">
+                        <div class="header-search">
+                            <input type="text" class="form-control" placeholder="Search for...">
+                        </div><!-- /.header-search -->
+
+                        <ul class="header-nav-social social-links nav nav-pills">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        </ul><!-- /.header-nav-social -->
+
+                        <ul class="header-nav-secondary nav nav-pills">
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="register.html">Register</a></li>
+                        </ul>
+                    </div><!-- /.header-top -->
+
+                    <div class="header-bottom">
+                        <div class="header-action">
+                            <a href="listing-submit.html" class="header-action-inner" title="Add Listing" data-toggle="tooltip" data-placement="bottom">
+                                <i class="fa fa-plus"></i>
+                            </a><!-- /.header-action-inner -->
+                        </div><!-- /.header-action -->
+
+                        <ul class="header-nav-primary nav nav-pills collapse navbar-collapse">
+    <li >
+        <a href="#">Home <i class="fa fa-chevron-down"></i></a>
+
+        <ul class="sub-menu">
+            <li><a href="index-video.html">Video v1</a></li>
+            <li><a href="index-video-transparent-header.html">Video v2</a></li>
+            <li><a href="index-google-map.html">Google Map V1</a></li>
+            <li><a href="index-google-map-transparent-header.html">Google Map v2</a></li>
+            <li><a href="index-image.html">Image v1</a></li>
+            <li><a href="index.html">Image v2</a></li>
+            <li><a href="index-bootstrap-slider.html">Boxed Slider</a></li>
+        </ul>
+    </li>
+
+    <li class="active">
+        <a href="#">Listing <i class="fa fa-chevron-down"></i></a>
+
+        <ul class="sub-menu">
+            <li><a href="listing-detail.html">Detail</a></li>
+            <li><a href="listing-map.html">Row + Map</a></li>
+            <li><a href="listing-grid.html">Grid</a></li>
+            <li><a href="listing-grid-sidebar.html">Grid Sidebar</a></li>
+            <li><a href="listing-row.html">Row</a></li>
+            <li><a href="listing-row-sidebar.html">Row Sidebar</a></li>
+        </ul>
+    </li>
+
+    <li class="has-mega-menu">
+        <a href="#">Pages <i class="fa fa-chevron-down"></i></a>
+
+        <ul class="mega-menu">
+            <li>
+                <a href="#">General</a>
+
+                <ul>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="invoice.html">Invoice</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="grid.html">Grid System</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">User Account</a>
+
+                <ul>
+                    <li><a href="user-profile-edit.html">Profile Edit</a></li>
+                    <li><a href="login.html">Login Form</a></li>
+                    <li><a href="register.html">Register Form</a></li>
+                    <li><a href="change-password.html">Change Password Form</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">Miscellaneous</a>
+
+                <ul>
+                    <li><a href="sticky-footer.html">Sticky Footer</a></li>
+                    <li><a href="terms-conditions.html">Terms &amp; Conditions</a></li>
+                    <li><a href="error-403.html">403 - Forbidden</a></li>
+                    <li><a href="error-404.html">404 - Not Found</a></li>
+                    <li><a href="error-500.html">500 - Internal Error</a></li>
+                </ul>
+            </li>
+
+            <li class="hidden-xs">
+                <div class="special">
+                    <a href="register.html">Sign Up Now</a>
+                </div><!-- /.special-->
+            </li>
+        </ul>
+    </li>
+
+    <li >
+        <a href="#">Blog <i class="fa fa-chevron-down"></i></a>
+
+        <ul class="sub-menu">
+            <li><a href="blog-standard-right-sidebar.html">Standard Right Sidebar</a></li>
+            <li><a href="blog-standard-left-sidebar.html">Standard Left Sidebar</a></li>
+            <li><a href="blog-boxed.html">Boxed Style</a></li>
+            <li><a href="blog-condensed.html">Condensed Style</a></li>
+            <li><a href="blog-detail.html">Detail Fullwidth</a></li>
+            <li><a href="blog-detail-right-sidebar.html">Detail Right Sidebar</a></li>
+            <li><a href="blog-detail-left-sidebar.html">Detail Left Sidebar</a></li>
+        </ul>
+    </li>
+
+    <li >
+        <a href="#">Admin <i class="fa fa-chevron-down"></i></a>
+
+        <ul class="sub-menu">
+            <li><a href="admin-dashboard.html">Dashboard</a></li>
+            <li><a href="admin-grid.html">Grid System</a></li>
+            <li><a href="admin-tables.html">Tables</a></li>
+            <li><a href="admin-forms.html">Forms</a></li>
+            <li><a href="admin-notifications.html">Notifications</a></li>
+        </ul>
+    </li>
+
+    <li >
+        <a href="#">Contact <i class="fa fa-chevron-down"></i></a>
+        <ul class="sub-menu">
+            <li><a href="contact-1.html">Contact v1</a></li>
+            <li><a href="contact-2.html">Contact v2</a></li>
+            <li><a href="contact-3.html">Contact v3</a></li>
+        </ul>
+    </li>
+</ul>
+
+<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".header-nav-primary">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+</button>
+
+                    </div><!-- /.header-bottom -->
+                </div><!-- /.header-content -->
+            </div><!-- /.header-inner -->
+        </div><!-- /.container -->
+    </div><!-- /.header-wrapper -->
+</header><!-- /.header -->
+
+
+
+
+    <div class="main">
+        <div class="main-inner">
+            <div class="container">
+                <div class="row">
+                    
+
+
+                    <div class="col-sm-8 col-lg-9">
+                        <div class="content">
+                            <div class="page-title">
+    <h1>Submit Listing</h1>
+</div>
+
+<div class="background-white p30 mb30">
+    <h3 class="page-title">Description</h3>
+    <div class="form-group">
+        <input class="form-control" type="text" placeholder="Title">
+    </div><!-- /.form-group -->
+
+    <div class="form-group">
+        <textarea class="form-control" placeholder="Listing Description" rows="8"></textarea>
+    </div><!-- /.form-group -->
+</div><!-- /.box -->
+
+<div class="background-white p30 mb30">
+    <h3 class="page-title">Attributes</h3>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group">
+                <select name="property">
+                    <option>Property Type</option>
+                    <option>Apartment</option>
+                    <option>Condo</option>
+                    <option>House</option>
+                    <option>Villa</option>
+                </select>
+            </div><!-- /.form-group -->
+
+            <div class="form-group">
+                <select name="contract">
+                    <option>Contract</option>
+                    <option>Rent</option>
+                    <option>Sale</option>
+                </select>
+            </div><!-- /.form-group -->
+
+            <div class="form-group">
+                <select name="location">
+                    <option>Location</option>
+                    <option>Kensal</option>
+                    <option>Braymer</option>
+                    <option>Horton Bay</option>
+                    <option>Laurel Run</option>
+                    <option>Estherville</option>
+                    <option>Millhousen</option>
+                    <option>Allegan</option>
+                    <option>Florala</option>
+                    <option>Dundarrach</option>
+                    <option>Neligh</option>
+                    <option>Roseboro</option>
+                    <option>Mount Pleasant</option>
+                    <option>Moro</option>
+                    <option>Strathmoor Village</option>
+                    <option>Mabton</option>
+                    <option>Loup City</option>
+                    <option>Wolverine</option>
+                    <option>San Leandro</option>
+                    <option>Dunwoody</option>
+                    <option>Battle Ground</option>
+                    <option>Hanson</option>
+                    <option>Reedley</option>
+                    <option>Bayshore</option>
+                    <option>Tupelo</option>
+                    <option>Lone Pine</option>
+                </select>
+            </div><!-- /.form-group -->
+
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-dollar"></i></span>
+                <input class="form-control" type="text" placeholder="Price">
+            </div><!-- /.form-group -->
+        </div><!-- /.col-* -->
+
+        <div class="col-sm-6">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-building-o"></i></span>
+                <input class="form-control" type="text" placeholder="Address">
+            </div><!-- /.form-group -->
+
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-map-o"></i></span>
+                <input class="form-control" type="text" placeholder="City">
+            </div><!-- /.form-group -->
+
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                <input class="form-control" type="text" placeholder="Phone">
+            </div><!-- /.form-group -->
+
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-at"></i></span>
+                <input class="form-control" type="text" placeholder="E-mail">
+            </div><!-- /.form-group -->
+        </div><!-- /.col-* -->
+    </div><!-- /.row -->
+</div><!-- /.box -->
+
+<div class="row">
+    <div class="col-sm-12">
+
+        <div class="background-white p30 mb30">
+            <h3 class="page-title">Map Position</h2>
+
+            <input id="pac-input" class="controls form-control mb30" type="text" placeholder="Enter a location">
+
+            <div id="map-canvas"></div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-map-marker"></i></span>
+                        <input class="form-control" type="text" placeholder="Latitude" id="input-latitude">
+                    </div><!-- /.form-group -->
+                </div><!-- /.col-* -->
+
+                <div class="col-sm-6">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-map-marker"></i></span>
+                        <input class="form-control" type="text" placeholder="Lontgitude" id="input-longitude">
+                    </div><!-- /.form-group -->
+                </div><!-- /.col-* -->
+            </div><!-- /.row -->
+        </div><!-- /.box -->
+    </div>
+
+    <div class="col-sm-12">
+        <div class="background-white p30 mb30">            
+            <h3 class="page-title">Gallery</h2>
+            <input type="file" id="input-file">
+        </div><!-- /.box -->
+    </div>
+</div><!-- /.row -->
+
+<div class="background-white p30 mb30">
+    <h3 class="page-title">Amenities</h3>
+
+    <ul class="amenities">
+        <li class="checkbox"><input type="checkbox" id="amenity-1"> <label for="amenity-1">Air conditioning</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-2"> <label for="amenity-2">Balcony</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-3"> <label for="amenity-3">Bedding</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-4"> <label for="amenity-4">Cable TV</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-5"> <label for="amenity-5">Cleaning after exit</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-6"> <label for="amenity-6">Cofee pot</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-7"> <label for="amenity-7">Computer</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-8"> <label for="amenity-8">Cot</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-9"> <label for="amenity-9">Dishwasher</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-10"> <label for="amenity-10">DVD</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-11"> <label for="amenity-11">Fan</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-12"> <label for="amenity-12">Fridge</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-13"> <label for="amenity-13">Grill</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-14"> <label for="amenity-14">Hairdryer</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-15"> <label for="amenity-15">Heating</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-16"> <label for="amenity-16">Hi-fi</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-17"> <label for="amenity-17">Internet</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-18"> <label for="amenity-18">Iron</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-19"> <label for="amenity-19">Juicer</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-20"> <label for="amenity-20">Lift</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-21"> <label for="amenity-21">Microwave</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-22"> <label for="amenity-22">Oven</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-23"> <label for="amenity-23">Parking</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-24"> <label for="amenity-24">Parquet</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-25"> <label for="amenity-25">Pool</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-26"> <label for="amenity-26">Radio</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-27"> <label for="amenity-27">Roof terrace</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-28"> <label for="amenity-28">Smoking allowed</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-29"> <label for="amenity-29">Terrace</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-30"> <label for="amenity-30">Toaster</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-31"> <label for="amenity-31">Towelwes</label></li>
+        <li class="checkbox"><input type="checkbox" id="amenity-32"> <label for="amenity-32">Use of pool</label></li>
+    </ul>
+</div>
+
+<div class="center">
+    <button type="submit" class="btn btn-primary btn-xl">Submit Listing</button>
+</div><!-- /.center -->
+
+                        </div><!-- /.content -->
+                    </div><!-- /.col-* -->
+
+                    <div class="col-sm-4 col-lg-3">
+                        <div class="sidebar">
+                            <div class="widget">
+    <h2 class="widgettitle">Recent Listings</h2>
+
+    
+
+    
+        
+
+        <div class="cards-small">
+            <div class="card-small">
+                <div class="card-small-image">
+                    <a href="listing-detail.html">
+                        <img src="assets/img/tmp/product-2.jpg" alt="Tasty Brazil Coffee">
+                    </a>
+                </div><!-- /.card-small-image -->
+
+                <div class="card-small-content">
+                    <h3><a href="listing-detail.html">Tasty Brazil Coffee</a></h3>
+                    <h4><a href="listing-detail.html">New York / Village</a></h4>
+
+                    <div class="card-small-price">$180 / person</div>
+                </div><!-- /.card-small-content -->
+            </div><!-- /.card-small -->
+        </div><!-- /.cards-small -->
+    
+        
+
+        <div class="cards-small">
+            <div class="card-small">
+                <div class="card-small-image">
+                    <a href="listing-detail.html">
+                        <img src="assets/img/tmp/product-3.jpg" alt="Healthy Breakfast">
+                    </a>
+                </div><!-- /.card-small-image -->
+
+                <div class="card-small-content">
+                    <h3><a href="listing-detail.html">Healthy Breakfast</a></h3>
+                    <h4><a href="listing-detail.html">New York / Village</a></h4>
+
+                    <div class="card-small-price">$180 / person</div>
+                </div><!-- /.card-small-content -->
+            </div><!-- /.card-small -->
+        </div><!-- /.cards-small -->
+    
+        
+
+        <div class="cards-small">
+            <div class="card-small">
+                <div class="card-small-image">
+                    <a href="listing-detail.html">
+                        <img src="assets/img/tmp/product-4.jpg" alt="Coffee &amp; Newspaper">
+                    </a>
+                </div><!-- /.card-small-image -->
+
+                <div class="card-small-content">
+                    <h3><a href="listing-detail.html">Coffee &amp; Newspaper</a></h3>
+                    <h4><a href="listing-detail.html">New York / Village</a></h4>
+
+                    <div class="card-small-price">$180 / person</div>
+                </div><!-- /.card-small-content -->
+            </div><!-- /.card-small -->
+        </div><!-- /.cards-small -->
+    
+</div><!-- /.widget -->
+
+                            
+                            <div class="widget">
+    <h2 class="widgettitle">Filter</h2>
+
+    <div class="background-white p20">
+        <form method="post" action="?">
+            <div class="form-group">
+                <label for="">Keyword</label>
+                <input type="text" class="form-control" name="" id="">
+            </div><!-- /.form-group -->
+
+            <div class="form-group">
+                <label for="">Category</label>
+
+                <select class="form-control" title="Select Category">
+                    <option>Automotive</option>
+                    <option>Real Estate</option>
+                </select>
+            </div><!-- /.form-group -->
+
+            <div class="form-group">
+                <label for="">Location</label>
+                <select class="form-control" title="Select Location">
+                    <option>New York</option>
+                    <option>San Francisco</option>
+                </select>
+            </div><!-- /.form-group -->
+
+            <div class="form-group">
+                <label for="">Starting Price</label>
+                <input type="text" class="form-control" name="" id="">
+            </div><!-- /.form-group -->
+
+            <button class="btn btn-primary btn-block" type="submit">Search</button>
+        </form>
+    </div>
+</div><!-- /.widget -->
+
+
+                            <div class="widget">
+    <h2 class="widgettitle">Working Hours</h2>
+
+    <div class="p20 background-white">
+        <div class="working-hours">
+    		<div class="day clearfix">
+    			<span class="name">Mon</span><span class="hours">07:00 AM - 07:00 PM</span>
+    		</div><!-- /.day -->
+
+    		<div class="day clearfix">
+    			<span class="name">Tue</span><span class="hours">07:00 AM - 07:00 PM</span>
+    		</div><!-- /.day -->
+
+    		<div class="day clearfix">
+    			<span class="name">Wed</span><span class="hours">07:00 AM - 07:00 PM</span>
+    		</div><!-- /.day -->
+
+    		<div class="day clearfix">
+    			<span class="name">Thu</span><span class="hours">07:00 AM - 07:00 PM</span>
+    		</div><!-- /.day -->
+
+    		<div class="day clearfix">
+    			<span class="name">Fri</span><span class="hours">07:00 AM - 07:00 PM</span>
+    		</div><!-- /.day -->
+
+    		<div class="day clearfix">
+    			<span class="name">Sat</span><span class="hours">07:00 AM - 02:00 PM</span>
+    		</div><!-- /.day -->
+
+    		<div class="day clearfix">
+    			<span class="name">Sun</span><span class="hours">Closed</span>
+    		</div><!-- /.day -->
+    	</div>
+    </div>
+</div><!-- /.widget -->
+
+
+                            <div class="widget">
+    <h2 class="widgettitle">Categories</h2>
+
+    <ul class="menu">
+        <li><a href="#">Automotive</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Nightlife</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Transportation</a></li>
+        <li><a href="#">Real Estate</a></li>
+        <li><a href="#">Restaurants</a></li>
+    </ul><!-- /.menu -->
+</div><!-- /.wifget -->
+
+
+                            <div class="widget">
+    <h2 class="widgettitle">Archives</h2>
+
+    <ul class="menu">
+        <li><a href="#">August <strong class="pull-right">12</strong></a></li>
+        <li><a href="#">July <strong class="pull-right">23</strong></a></li>
+        <li><a href="#">June <strong class="pull-right">53</strong></a></li>
+    </ul><!-- /.menu -->
+</div><!-- /.wifget -->
+
+                        </div><!-- /.sidebar -->
+                    </div><!-- /.col-* -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.main-inner -->
+    </div><!-- /.main -->
+
+    <footer class="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h2>About Superlist</h2>
+
+                    <p>Superlist is directory template built upon Bootstrap and SASS to bring great experience in creation of directory.</p>
+                </div><!-- /.col-* -->
+
+                <div class="col-sm-4">
+                    <h2>Contact Information</h2>
+
+                    <p>
+                        Your Street 123, Melbourne, Australia<br>
+                        +1-123-456-789, <a href="#">sample@example.com</a>
+                    </p>
+                </div><!-- /.col-* -->
+
+                <div class="col-sm-4">
+                    <h2>Stay Connected</h2>
+
+                    <ul class="social-links nav nav-pills">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                    </ul><!-- /.header-nav-social -->
+                </div><!-- /.col-* -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.footer-top -->
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="footer-bottom-left">
+                &copy; 2015 All rights reserved. Created by <a href="#">Aviators</a>.
+            </div><!-- /.footer-bottom-left -->
+
+            <div class="footer-bottom-right">
+                <ul class="nav nav-pills">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="terms-conditions.html">Terms &amp; Conditions</a></li>
+                    <li><a href="contact-1.html">Contact</a></li>
+                </ul><!-- /.nav -->
+            </div><!-- /.footer-bottom-right -->
+        </div><!-- /.container -->
+    </div>
+</footer><!-- /.footer -->
+
+</div><!-- /.page-wrapper -->
+
+<script src="assets/js/jquery.js" type="text/javascript"></script>
+<script src="assets/js/map.js" type="text/javascript"></script>
+
+<script src="assets/libraries/bootstrap-sass/javascripts/bootstrap/collapse.js" type="text/javascript"></script>
+<script src="assets/libraries/bootstrap-sass/javascripts/bootstrap/carousel.js" type="text/javascript"></script>
+<script src="assets/libraries/bootstrap-sass/javascripts/bootstrap/transition.js" type="text/javascript"></script>
+<script src="assets/libraries/bootstrap-sass/javascripts/bootstrap/dropdown.js" type="text/javascript"></script>
+<script src="assets/libraries/bootstrap-sass/javascripts/bootstrap/tooltip.js" type="text/javascript"></script>
+<script src="assets/libraries/bootstrap-sass/javascripts/bootstrap/tab.js" type="text/javascript"></script>
+<script src="assets/libraries/bootstrap-sass/javascripts/bootstrap/alert.js" type="text/javascript"></script>
+
+<script src="assets/libraries/colorbox/jquery.colorbox-min.js" type="text/javascript"></script>
+
+<script src="assets/libraries/flot/jquery.flot.min.js" type="text/javascript"></script>
+<script src="assets/libraries/flot/jquery.flot.spline.js" type="text/javascript"></script>
+
+<script src="assets/libraries/bootstrap-select/bootstrap-select.min.js" type="text/javascript"></script>
+
+<script src="http://maps.googleapis.com/maps/api/js?libraries=weather,geometry,visualization,places,drawing" type="text/javascript"></script>
+
+<script type="text/javascript" src="assets/libraries/jquery-google-map/infobox.js"></script>
+<script type="text/javascript" src="assets/libraries/jquery-google-map/markerclusterer.js"></script>
+<script type="text/javascript" src="assets/libraries/jquery-google-map/jquery-google-map.js"></script>
+
+<script type="text/javascript" src="assets/libraries/owl.carousel/owl.carousel.js"></script>
+<script type="text/javascript" src="assets/libraries/bootstrap-fileinput/fileinput.min.js"></script>
+
+<script src="assets/js/superlist.js" type="text/javascript"></script>
+
+</body>
+</html>
